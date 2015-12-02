@@ -1,0 +1,13 @@
+{
+	"version": "0.0.0",
+	"private": true,
+	"dependencies": {
+		"express": "4.13.3",
+		"socketio": "1.0.0"
+	},
+	"devDependencies": {
+		"gulp": "3.9.0",
+		"gulp-uglify": "1.5.1",
+		"gulp-concat": "2.6.0"
+	}
+}

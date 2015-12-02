@@ -1,0 +1,17 @@
+<div>
+	<h1>{{vm.title}}</h1>
+
+	<pre>{{vm | json}}</pre>
+
+	<div>
+		<span>Name:</span>
+		<input ng-model="vm.name" />
+	</div>
+
+	<div>
+		<span>Message:</span>
+		<input ng-model="vm.message" />
+	</div>
+
+	<button ng-click="vm.send()">SEND</button>
+</div>
