@@ -10,7 +10,7 @@ gulp.task('js', function () {
             'public/js/app/chat/chat.component.js',
             'public/js/app.js'
         ])
-        .pipe(concat('app.min.js')) //the name of the resulting file
+        .pipe(concat('app.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('public/js')); //the destination folder
+        .pipe(gulp.dest('public/js'));
 });
